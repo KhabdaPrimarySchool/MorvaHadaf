@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khabda Primary School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <a href="#" class="logo">
+                <!-- Simple SVG Logo -->
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 10v6M2 10v6" />
+                    <path d="M2 10l10-5 10 5-5 10H7z" />
+                </svg>
+                Khabda Primary
+            </a>
+            <button class="hamburger" id="hamburger">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12" />
+                    <line x1="3" y1="6" x2="21" y2="6" />
+                    <line x1="3" y1="18" x2="21" y2="18" />
+                </svg>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#teachers">Teachers</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <div id="home" class="hero">
+        <div class="slider">
+            <!-- Base64 Background Images (SVGs) -->
+            <div class="slide active"
+                style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBzbGljZSI+PHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiM4N0NFRUIiLz48cmVjdCB5PSIzMDAiIHdpZHRoPSI4MDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjOTBFRTkwIi8+PHJlY3QgeD0iMjAwIiB5PSIxNTAiIHdpZHRoPSI0MDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjRkZGRkZGIi8+PHBvbHlnb24gcG9pbnRzPSIyMDAsMTUwIDQwMCw1MCA2MDAsMTUwIiBmaWxsPSIjRkY2MzQ3Ii8+PHJlY3QgeD0iMzUwIiB5PSIyNTAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjOEI0NTEzIi8+PC9zdmc+');">
+            </div>
+            <div class="slide"
+                style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBzbGljZSI+PHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiM4N0NFRUIiLz48cmVjdCB5PSIzMDAiIHdpZHRoPSI4MDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjOTBFRTkwIi8+PGNpcmNsZSBjeD0iMTAwIiBjeT0iMTAwIiByPSI1MCIgZmlsbD0iI0ZGRDcwMCIvPjxyZWN0IHg9IjEwMCIgeT0iMjAwIiB3aWR0aD0iMjAiIGhlaWdodD0iMTAwIiBmaWxsPSIjODA4MDgwIi8+PHJlY3QgeD0iMzAwIiB5PSIyMjAiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAiIGZpbGw9IiNGRjQ1MDAiLz48L3N2Zz4=');">
+            </div>
+            <div class="slide"
+                style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBzbGljZSI+PHJlY3Qgd2lkdGg9IjgwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiNGRkZBQ0QiLz48cmVjdCB4PSIxMDAiIHk9IjEwMCIgd2lkdGg9IjYwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiMyRThCNTciIHN0cm9rZT0iIzhCNDUxMyIgc3Ryb2tlLXdpZHRoPSIxMCIvPjx0ZXh0IHg9IjQwMCIgeT0iMjAwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iNDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiNGRkZGRkYiPldlbGNvbWUgdG8gQ2xhc3M8L3RleHQ+PC9zdmc+');">
+            </div>
+        </div>
+        <div class="hero-content">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48Y2lyY2xlIGN4PSIxMDAiIGN5PSIxMDAiIHI9IjEwMCIgZmlsbD0iI2UzZTNlMyIvPjxjaXJjbGUgY3g9IjEwMCIgY3k9IjgwIiByPSI0MCIgZmlsbD0iIzI1NjNlYiIvPjxwYXRoIGQ9Ik00MCAxODBhNjAgNjAgMCAwIDEgMTIwIDB2MjBINDB6IiBmaWxsPSIjMjU2M2ViIi8+PC9zdmc+"
+                alt="School Logo" class="hero-avatar">
+            <h1>Welcome to Khabda Primary School</h1>
+            <p>Nurturing Minds, Building Futures</p>
+        </div>
+    </div>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2 class="section-title">Our Gallery</h2>
+        <div class="gallery-grid">
+            <!-- 10 Gallery Images (SVGs) -->
+            <div class="gallery-item"><img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2ZmZTRlMSIvPjxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgcj0iNTAiIGZpbGw9IiNmZmI3MDMiLz48L3N2Zz4="
+                    alt="Gallery 1"></div>
+            <div class="gallery-item"><img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2UzZjJmZCIvPjxyZWN0IHg9IjUwIiB5PSI1MCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiMyMTk2ZjMiLz48L3N2Zz4="
+                    alt="Gallery 2"></div>
+            <div class="gallery-item"><img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2U4ZjVlOSIvPjxwb2x5Z29uIHBvaW50cz0iMTAwLDUwIDE1MCwxNTAgNTAsMTUwIiBmaWxsPSIjNGNhZjUwIi8+PC9zdmc+"
+                    alt="Gallery 3"></div>
+            <div class="gallery-item"><img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2ZmZjNkMCIvPjxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgcj0iNjAiIGZpbGw9IiNmNDQzMzYiIG9wYWNpdHk9IjAuNSIvPjwvc3ZnPg=="
+                    alt="Gallery 4"></div>
+            <div class="gallery-item"><img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2YzZTVmNSIvPjxyZWN0IHg9IjQwIiB5PSI4MCIgd2lkdGg9IjEyMCIgaGVpZ2h0PSI0MCIgZmlsbD0iIzllOWU5ZSIvPjwvc3ZnPg=="
+                    alt="Gallery 5"></div>
+            <div class="gallery-item"><img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2UwZjJmMSIvPjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjIwIiBmaWxsPSIjMDA5Njg4Ii8+PGNpcmNsZSBjeD0iMTUwIiBjeT0iMTUwIiByPSIyMCIgZmlsbD0iIzAwOTY4OCIvPjwvc3ZnPg=="
+                    alt="Gallery 6"></div>
+            <div class="gallery-item"><img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2ZmZjhlMSIvPjxyZWN0IHg9IjcwIiB5PSI1MCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2ZmOTgwMCIvPjwvc3ZnPg=="
+                    alt="Gallery 7"></div>
+            <div class="gallery-item"><img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2UzZjJmZCIvPjxwb2x5Z29uIHBvaW50cz0iNTAsMTAwIDEwMCw1MCAxNTAsMTAwIDEwMCwxNTAiIGZpbGw9IiMzZjUxYjUiLz48L3N2Zz4="
+                    alt="Gallery 8"></div>
+            <div class="gallery-item"><img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2YxZjhlOSIvPjxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgcj0iNzAiIGZpbGw9IiNmZWMxMDciIG9wYWNpdHk9IjAuNyIvPjwvc3ZnPg=="
+                    alt="Gallery 9"></div>
+            <div class="gallery-item"><img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2ZhZmFmYSIvPjxwYXRoIGQ9Ik01MCAxNTBRMTAwIDUwIDE1MCAxNTAiIGZpbGw9IiM5YzI3YjAiLz48L3N2Zz4="
+                    alt="Gallery 10"></div>
+        </div>
+    </section>
+
+    <!-- Teachers Section -->
+    <section id="teachers">
+        <h2 class="section-title">Our Teachers</h2>
+        <div class="teachers-grid">
+            <!-- 5 Teachers -->
+            <div class="teacher-card">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2UzZjJmZCIvPjxjaXJjbGUgY3g9IjEwMCIgY3k9IjgwIiByPSI0MCIgZmlsbD0iIzE1NjViMCIvPjxwYXRoIGQ9Ik00MCAxODBhNjAgNjAgMCAwIDEgMTIwIDB2MjBINDB6IiBmaWxsPSIjMTU2NWIwIi8+PC9zdmc+"
+                    alt="Teacher 1" class="teacher-img">
+                <div class="teacher-info">
+                    <h3>Mr. Sharma</h3>
+                    <p>Mathematics</p>
+                </div>
+            </div>
+            <div class="teacher-card">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2ZjlGUxIi8+PGNpcmNsZSBjeD0iMTAwIiBjeT0iODAiIHI9IjQwIiBmaWxsPSIjZDMyZjJmIi8+PHBhdGggZD0iTTQwIDE4MGE2MCA2MCAwIDAgMSAxMjAgMHYyMEg0MHoiIGZpbGw9IiNkMzJmMmYiLz48L3N2Zz4="
+                    alt="Teacher 2" class="teacher-img">
+                <div class="teacher-info">
+                    <h3>Mrs. Patel</h3>
+                    <p>Science</p>
+                </div>
+            </div>
+            <div class="teacher-card">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2U4ZjVlOSIvPjxjaXJjbGUgY3g9IjEwMCIgY3k9IjgwIiByPSI0MCIgZmlsbD0iIzM4OGUzYyIvPjxwYXRoIGQ9Ik00MCAxODBhNjAgNjAgMCAwIDEgMTIwIDB2MjBINDB6IiBmaWxsPSIjMzg4ZTNjIi8+PC9zdmc+"
+                    alt="Teacher 3" class="teacher-img">
+                <div class="teacher-info">
+                    <h3>Mr. Singh</h3>
+                    <p>English</p>
+                </div>
+            </div>
+            <div class="teacher-card">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2ZmZjhlMSIvPjxjaXJjbGUgY3g9IjEwMCIgY3k9IjgwIiByPSI0MCIgZmlsbD0iI2ZmYTAwMCIvPjxwYXRoIGQ9Ik00MCAxODBhNjAgNjAgMCAwIDEgMTIwIDB2MjBINDB6IiBmaWxsPSIjZmZhMDAwIi8+PC9zdmc+"
+                    alt="Teacher 4" class="teacher-img">
+                <div class="teacher-info">
+                    <h3>Ms. Gupta</h3>
+                    <p>Art</p>
+                </div>
+            </div>
+            <div class="teacher-card">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjAwIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2YzZTVmNSIvPjxjaXJjbGUgY3g9IjEwMCIgY3k9IjgwIiByPSI0MCIgZmlsbD0iIzdiMWZhMiIvPjxwYXRoIGQ9Ik00MCAxODBhNjAgNjAgMCAwIDEgMTIwIDB2MjBINDB6IiBmaWxsPSIjN2IxZmEyIi8+PC9zdmc+"
+                    alt="Teacher 5" class="teacher-img">
+                <div class="teacher-info">
+                    <h3>Mr. Kumar</h3>
+                    <p>Sports</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <p>Khabda Primary School, Village Khabda, District Example</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <p>+91 98765 43210</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <p>info@khabdaprimary.edu</p>
+                </div>
+            </div>
+            <div class="map-container">
+                <!-- Embedded Google Map (Iframe) -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.4!2d72.5!3d23.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDAwJzAwLjAiTiA3MsKwMzAnMDAuMCJF!5e0!3m2!1sen!2sin!4v1600000000000!5m2!1sen!2sin"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section (Placeholder as requested in navbar) -->
+    <section id="about">
+        <h2 class="section-title">About Us</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto;">
+            Khabda Primary School is dedicated to providing quality education to children in our community.
+            We believe in holistic development, fostering creativity, and building strong moral values.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Khabda Primary School. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
